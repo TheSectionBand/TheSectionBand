@@ -4,6 +4,11 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-color: white;
+    text-shadow:
+        -1px -1px 0 #FFF,
+        1px -1px 0 #FFF,
+        -1px 1px 0 #FFF,
+        1px 1px 0 #FFF;
 }
 body.upcoming-performances {
     background-image: url("Backgrounds/bg2.jpg");
